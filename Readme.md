@@ -15,15 +15,19 @@ This sample project is still in development, and could easily break or have some
 
 ##How to use this project
 
+You can use Android Studio or Intellij to work with this repository.
+
 First thing you will need to compile this project is to get an [API Key from Last.fm](http://www.lastfm.es/api). It will we used to connect to the service that will provide artists info. Then create the next String resource in a `config.xml` file:
 
 ```xml
 <string name="last_fm_api_key">YOUR_KEY</string>
 ```
 
+Two plugins for Android Studio are also required: `Kotlin` and `Kotlin Extensions for Android`
+
 Many ideas on how this project is organized were taken from [Clean Contacts](https://github.com/PaNaVTEC/Clean-Contacts/blob/master/Readme.md) project, by [PaNaVTEC](https://github.com/PaNaVTEC). There are some slight differences, but reading [How to start section](https://github.com/PaNaVTEC/Clean-Contacts/blob/master/Readme.md#how-to-start-with-this-repository) will be helpful.
 
-The project is divided in 5 modules, each of one represents a different layer. This project only uses an Android module, app, that can be considered a configuration module that will implement all the necessary dependencies the rest of layers will use.
+The project is divided in 5 modules, each of one represents a different layer. This project only uses an Android module, `app`, that can be considered a configuration module that will implement all the necessary dependencies the rest of layers will use.
 
 #License
 
